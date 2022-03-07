@@ -48,13 +48,14 @@ const SignUp = () => {
                 Submit
               </Button>
               <Grid item>
+                Already have an account?
                 <Link
                   text-align="center"
                   underline="none"
                   href="#"
                   variant="body2"
                 >
-                  Already have an account? Sign In
+                   Sign In
                 </Link>
               </Grid>
             </Grid>
