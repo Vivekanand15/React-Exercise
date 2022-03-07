@@ -10,10 +10,14 @@ import Link from "@mui/material/Link";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
 
-
+const theme = createTheme({
+  typography:{
+    fontFamily:'Inter'
+  },
+});
 const SignUp = () => {
 
-  const theme = createTheme();
+  
   const isActive = useMediaQuery("(min-width:600px)");
   return (
     <ThemeProvider theme={theme}>
